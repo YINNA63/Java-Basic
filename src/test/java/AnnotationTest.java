@@ -1,14 +1,10 @@
 import static org.junit.Assert.assertEquals;
 
-import example.annotation.annotation.ValidateAnnotation;
-import example.annotation.manager.TestManager;
-import example.annotation.utils.ObjectToJsonConverter;
-import example.annotation.bean.Person;
-import exception.CoreException;
-import javax.annotation.Resource;
+import com.nana.javabasic.example.annotation.manager.TestManager;
+import com.nana.javabasic.example.annotation.utils.ObjectToJsonConverter;
+import com.nana.javabasic.example.annotation.bean.Person;
+import com.nana.javabasic.exception.CoreException;
 import org.junit.Test;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.stereotype.Component;
 
 /**

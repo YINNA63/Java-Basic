@@ -1,6 +1,6 @@
-package example.annotation.manager;
+package com.nana.javabasic.example.annotation.manager;
 
-import example.annotation.annotation.ValidateAnnotation;
+import com.nana.javabasic.example.annotation.annotation.ValidateAnnotation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 

@@ -1,0 +1,3 @@
+server:
+  name: java-basic
+  port: 8080

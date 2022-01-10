@@ -1,6 +1,6 @@
-package config;
+package com.nana.javabasic.config;
 
-import example.annotation.interceptor.CustomInterceptor;
+import com.nana.javabasic.example.annotation.interceptor.CustomInterceptor;
 import javax.annotation.Resource;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;

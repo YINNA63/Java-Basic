@@ -1,14 +1,11 @@
-package example.annotation.handler;
+package com.nana.javabasic.example.annotation.handler;
 
-import example.annotation.annotation.ValidateAnnotation;
-import java.lang.reflect.Method;
-import java.util.Objects;
+import com.nana.javabasic.example.annotation.annotation.ValidateAnnotation;
 import javax.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.reflect.MethodSignature;
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;

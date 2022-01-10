@@ -1,4 +1,4 @@
-package exception;
+package com.nana.javabasic.exception;
 
 /**
  * 异常类

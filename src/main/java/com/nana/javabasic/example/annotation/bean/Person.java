@@ -1,8 +1,8 @@
-package example.annotation.bean;
+package com.nana.javabasic.example.annotation.bean;
 
-import example.annotation.annotation.Init;
-import example.annotation.annotation.JsonElement;
-import example.annotation.annotation.JsonSerializable;
+import com.nana.javabasic.example.annotation.annotation.Init;
+import com.nana.javabasic.example.annotation.annotation.JsonElement;
+import com.nana.javabasic.example.annotation.annotation.JsonSerializable;
 import lombok.AllArgsConstructor;
 
 /**

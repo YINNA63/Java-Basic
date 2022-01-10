@@ -1,10 +1,10 @@
-package example.annotation.utils;
+package com.nana.javabasic.example.annotation.utils;
 
-import example.annotation.annotation.Init;
-import example.annotation.annotation.JsonElement;
-import example.annotation.annotation.JsonSerializable;
-import exception.CoreException;
-import exception.ExceptionType;
+import com.nana.javabasic.example.annotation.annotation.Init;
+import com.nana.javabasic.example.annotation.annotation.JsonElement;
+import com.nana.javabasic.example.annotation.annotation.JsonSerializable;
+import com.nana.javabasic.exception.CoreException;
+import com.nana.javabasic.exception.ExceptionType;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

@@ -1,10 +1,11 @@
-package example.annotation.interceptor;
+package com.nana.javabasic.example.annotation.interceptor;
 
-import example.annotation.annotation.CustomControllerAnnotation;
+import com.nana.javabasic.example.annotation.annotation.CustomControllerAnnotation;
 import java.util.Objects;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Component;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
@@ -15,6 +16,7 @@ import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
  * @date 2022/1/7
  */
 @Slf4j
+@Component
 public class CustomInterceptor extends HandlerInterceptorAdapter {
 
 //    @Resource

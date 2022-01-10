@@ -1,4 +1,4 @@
-package example.annotation.annotation;
+package com.nana.javabasic.example.annotation.annotation;
 
 /**
  * 自定义注解
